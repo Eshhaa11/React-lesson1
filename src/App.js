@@ -1,4 +1,4 @@
-import FormComponent from "./Components/FormComponent";
+import FormComponent from "./Components/FormComponent.js";
 
 const App = () => {
   return (
