@@ -6,6 +6,7 @@ const App = () => {
     const [formState, setFormState] = useState("register");
     const handleForm = (e) => {
         const btnName = e.target.value;
+        setFormState(btnName);
         console.log(formState);
     }
   return (
