@@ -17,4 +17,4 @@ const LogInComponent = () => {
     );
   }
   
-  export default LogInComponent;
+  export default LogInComponent;
