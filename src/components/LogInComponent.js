@@ -1,7 +1,7 @@
 const LogInComponent = () => {
     return (
     <div>
-      <h1>Register</h1>
+      <h1>Login</h1>
     <form>
   
       <input type="email" id="email" name="email" required />
