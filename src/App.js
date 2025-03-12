@@ -13,10 +13,10 @@ const App = () => {
     <div>
       <button onClick={handleForm} value="register">Register</button>
       <button onClick={handleForm} value="login">Login</button>
-      
-      
-      <FormComponent />
+      {formState === "register" ?
+      <FormComponent /> :
       <LogInComponent />
+      }
     </div>
   );
 }
