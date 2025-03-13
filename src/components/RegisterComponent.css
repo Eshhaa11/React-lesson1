@@ -31,7 +31,7 @@ h1 {
 /* === Form Grid (Two-Column Layout) === */
 .form-grid {
     display: flex;
-    gap: 15px; /* Space between columns */
+    gap: 15px; 
 }
 
 
