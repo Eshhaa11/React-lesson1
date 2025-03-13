@@ -42,7 +42,7 @@ const RegisterComponent = () => (
                 </div>
             </div>
 
-            {/* Right Column */}
+           
             <div className="form-column">
                 <div className="group">
                     <label htmlFor="register-phone" className="label">Phone Number</label>
