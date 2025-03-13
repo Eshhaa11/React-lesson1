@@ -36,7 +36,7 @@ h1 {
 
 /* === Column Styling === */
 .form-column {
-    flex: 1;  /* Each column takes equal space */
+    flex: 1;  
 }
 
 .group {
