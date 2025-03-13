@@ -39,7 +39,6 @@ h1 {
     flex: 1;  /* Each column takes equal space */
 }
 
-/* === Input Fields === */
 .group {
     margin-bottom: 10px;  
     text-align: left;
