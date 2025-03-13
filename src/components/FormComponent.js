@@ -1,5 +1,5 @@
 import React from 'react';
-import './RegisterComponent.css';
+import './FormComponent.css';
 
 const RegisterComponent = () => (
     <div className="register-container">
