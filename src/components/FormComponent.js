@@ -6,7 +6,7 @@ const RegisterComponent = () => (
         <h1>Register</h1>
 
         <div className="form-grid">
-            {/* Left Column */}
+           
             <div className="form-column">
                 <div className="group">
                     <label htmlFor="register-firstname" className="label">First Name</label>
