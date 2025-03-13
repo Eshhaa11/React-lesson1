@@ -15,7 +15,7 @@ body {
     border-radius: 15px;
     padding: 30px 35px;
     width: 100%;
-    max-width: 480px;  /* Wider layout for two-column design */
+    max-width: 480px;  
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
     text-align: center;
 }
