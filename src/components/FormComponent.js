@@ -79,7 +79,7 @@ const RegisterComponent = () => (
             </div>
         </div>
 
-        {/* Centered Submit Button */}
+        
         <div className="group submit-btn">
             <button type="submit" className="button">Sign Up</button>
         </div>
