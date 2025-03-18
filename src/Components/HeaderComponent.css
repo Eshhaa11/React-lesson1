@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: center;  
-    gap: -20px;  
+    gap: 150px;  
     align-items: center;       
     padding: 10px;         
     background-color: paleturquoise;
@@ -19,7 +19,7 @@ header {
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    gap: 50px;
+  
 
 
 }
