@@ -15,7 +15,7 @@
 
 .tab-container {
   display: flex;         /* Enables side-by-side layout */
-  gap: 15px;             /* Adds space between the buttons */
+  gap: 15px;            
   justify-content: center; 
 }
 
