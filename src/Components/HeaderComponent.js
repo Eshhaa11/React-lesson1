@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./HeaderComponent.css"
 import { Link } from "react-router-dom"
+import { FaBars, FaTimes } from "react-icons/fa"; 
 
 const HeaderComponent = () => {
     const [links] = useState([
