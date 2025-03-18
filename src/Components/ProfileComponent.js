@@ -6,7 +6,7 @@ const ProfileComponent = () => {
     const [team] = useState ([
         {
             name: " Esha Patel",
-            position: "Developer",
+            position: " Lead Developer",
             description: "I'm a passionate developer with a keen eye for detail."
         }
     ]
