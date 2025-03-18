@@ -7,28 +7,26 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
-  {
-  path: "/home",
-  element: <App/>
-  },
+
   {
     path: "/",
     element: <App/>
     },
+  {
+  path: "/home",
+  element: <App/>
+  },
     {
     path: "/about",
     element: <App/>
     },
-    {
+     {
       path: "/contact",
       element: <App/>
     },
-    {
+     {
       path: "auth",
       element: <App/>	
-
-
-
     }
   
 
