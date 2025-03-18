@@ -49,16 +49,16 @@ button {
 }
 
 button:hover {
-    background-color: #0e4bcd;
+    background-color:white;
 }
 
 .switch-text {
     text-align: center;
-    color: #fff;
+    color: black;
 }
 
 .link-btn {
-    color: #00f2fe;
+    color: black;
     cursor: pointer;
     font-weight: bold;
     margin-left: 5px;
