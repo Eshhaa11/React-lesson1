@@ -70,7 +70,7 @@ input::placeholder {
 }
 
 button {
-    background: linear-gradient(135deg, #4facfe, #00f2fe); 
+    background: black; 
     color: #fff;
     border: none;
     padding: 10px;
