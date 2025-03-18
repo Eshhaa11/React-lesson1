@@ -19,6 +19,9 @@
   justify-content: center; 
 }
 
+.btn{
+  border: none;
+}
 
 .App-header {
   background-color: #282c34;
