@@ -30,8 +30,8 @@ input, button {
     padding: 12px;
     margin-bottom: 15px;
     background: white;
-    border: none;
-    border-radius: 25px;
+    border-color: black;
+    border-radius: 10px;
     color: #fff;
     outline: none;
 }
@@ -43,9 +43,10 @@ input::placeholder {
 button {
     background-color:white;
     color: black;
-    border: none;
+    border-style: outset;
     cursor: pointer;
     transition: background 0.3s;
+
 }
 
 button:hover {
