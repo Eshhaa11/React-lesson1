@@ -67,7 +67,7 @@ header {
     opacity: 1;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     header {
         gap: 10px;
