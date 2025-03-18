@@ -1,13 +1,15 @@
-import HeaderComponent from "../Components/HeaderComponent";
-import ProfileComponent from "../Components/ProfileComponent";
+
+import HeaderComponent from "../Components/HeaderComponent"
+
 
 const AboutPage = () => {
     return (
         <div>
-            <HeaderComponent/>
-            <ProfileComponent/>
+             <HeaderComponent />
+             <ProfileComponent/>
+            
         </div>
-    );
+    )
 }
 
 export default AboutPage;
