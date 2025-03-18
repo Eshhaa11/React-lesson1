@@ -14,7 +14,7 @@ body {
     padding: 40px 30px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px white;
     transform: rotateY(0);
     transition: transform 0.5s ease;
 }
@@ -29,7 +29,7 @@ input, button {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    background: rgba(255, 255, 255, 0.1);
+    background: white;
     border: none;
     border-radius: 25px;
     color: #fff;
