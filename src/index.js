@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import about from './Pages/About';
 import contact from './Pages/Contact';
+import auth from './Pages/Auth';
 
 
 const router = createBrowserRouter([
