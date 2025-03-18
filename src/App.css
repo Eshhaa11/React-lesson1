@@ -14,7 +14,7 @@
 }
 
 .tab-container {
-  display: flex;         /* Enables side-by-side layout */
+  display: flex;        
   gap: 15px;            
   justify-content: center; 
 }
