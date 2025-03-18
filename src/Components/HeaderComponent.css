@@ -1,25 +1,3 @@
-header{
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    align-items: center;
-}
-    
-header a {
-    text-decoration: none ;
-    padding: 5px;
-    margin: 12px;
-}
-header, .nav-links{ 
-    display: flex;
-    flex-direction: row;
-    color: cyan;
-    background-color: palevioletred;
-
-}
-
-
-header, .nav-links:hover{
-    color: rgb(214, 214, 22);
 }
