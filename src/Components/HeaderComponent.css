@@ -6,5 +6,6 @@ header {
     background-color: paleturquoise;
     color: palevioletred;
     width: 100%;
+    position: fixed;
 
 }
