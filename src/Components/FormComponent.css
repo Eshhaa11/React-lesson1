@@ -22,7 +22,7 @@ body {
 
 
 h1 {
-    color: #fff;
+    color: black;
     margin-bottom: 1rem;
     font-size: 22px;  
     font-weight: 600;
@@ -47,18 +47,17 @@ h1 {
 input {
     width: 100%;
     padding: 10px 12px; 
-    background: rgba(107, 85, 85, 0.1);
+    background:black;
     border: 2px solid transparent;
-    border-radius: 20px;
-    color: #fff;
+    color: black;
     outline: none;
     transition: border 0.3s ease, background 0.3s ease;
     box-sizing: border-box;
 }
 
 input:focus {
-    border-color: #00f2fe;
-    background: rgba(255, 255, 255, 0.15);
+    border-color:white;
+    background:black;
 }
 
 input::placeholder {
