@@ -1,3 +1,7 @@
+import { useState } from "react";
+import {link} from "react-router-dom"'
+'
+
 const ProfileComponent = () => {
     return (
        <div>
