@@ -1,22 +1,26 @@
-import { useState } from "react";
-import FormComponent from "./Components/FormComponent.js";
-import LogInComponent from "./Components/LogInComponent.js";
+import './App.css';
+import FormComponent from './Components/FormComponent';
+import LogInComponent from './Components/LogInComponent';
+import { useState } from 'react';
+import HeaderComponent from './Components/HeaderComponent';
 
-const App = () => {
-    const [formState, setFormState] = useState("register");
-    const handleForm = (e) => {
-        const btnName = e.target.value;
-        setFormState(btnName);
-        console.log(formState);
-    }
+function App() {
+  const [formState, setFormState] = useState("register");
+
+  const handleForm = (e) => {
+    const btnName = e.target.value;
+    setFormState(btnName);
+    console.log(`Switching to: ${btnName}`); 
+  };
+
   return (
     <div>
-      <button onClick={handleForm} value="register">Register</button>
-      <button onClick={handleForm} value="login">Login</button>
-      {formState === "register" ?
-      <FormComponent /> :
-      <LogInComponent />
-      }
+      <HeaderComponent />
+      <div className='tab-container' style={{ marginBottom: '20px' }}>
+        <button className="btn" value="register" onClick={handleForm}>REGISTER</button>
+        <button className="btn" value="login" onClick={handleForm}>LOGIN</button>
+      </div>
+      {formState === "register" ? <FormComponent /> : <LogInComponent />}
     </div>
   );
 }
