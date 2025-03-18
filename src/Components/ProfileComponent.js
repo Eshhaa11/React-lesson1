@@ -9,8 +9,8 @@ const ProfileComponent = () => {
             position: " Lead Developer",
             description: "I'm a passionate developer with a keen eye for detail."
         }
-    ]
-    })
+    ])
+
     return (
        <div>
             <h1>Meet The Team</h1>
