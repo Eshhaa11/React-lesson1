@@ -5,13 +5,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);  
+    background: black;  
     font-family: 'Poppins', sans-serif;
 }
 
 
 .register-container {
-    background: rgba(49, 75, 118, 0.95); 
+    background: white; 
     border-radius: 15px;
     padding: 30px 35px;
     width: 100%;
