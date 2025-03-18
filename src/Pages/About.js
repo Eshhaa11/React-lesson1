@@ -1,5 +1,6 @@
 
 import HeaderComponent from "../Components/HeaderComponent"
+import ProfileComponent from "../Components/ProfileComponent"
 
 
 const AboutPage = () => {
