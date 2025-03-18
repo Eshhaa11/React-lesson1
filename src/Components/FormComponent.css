@@ -61,7 +61,8 @@ input:focus {
 }
 
 input::placeholder {
-    color: #bbb;
+    color: black;
+    border-radius: 1px;
 }
 
 
@@ -70,8 +71,8 @@ input::placeholder {
 }
 
 button {
-    background: black; 
-    color: #fff;
+    background: purple; 
+    color: black;
     border: none;
     padding: 10px;
     border-radius: 20px;
