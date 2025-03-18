@@ -9,7 +9,7 @@ body {
 }
 
 .login-container {
-    background: rgba(40, 57, 101, 0.9);
+    background: white;
     border-radius: 15px;
     padding: 40px 30px;
     width: 100%;
@@ -41,7 +41,7 @@ input::placeholder {
 }
 
 button {
-    background-color: #1161ee;
+    background-color:white;
     color: #fff;
     border: none;
     cursor: pointer;
