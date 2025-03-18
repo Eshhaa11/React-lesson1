@@ -4,12 +4,12 @@ header {
     align-items: center;
     padding: 10px;
     background-color: paleturquoise;
-    color: palevioletred;
     width: 100%;
     position: fixed;
 }
 
 .nav-links {
     text-decoration: none;
+    color: black
 }
 
