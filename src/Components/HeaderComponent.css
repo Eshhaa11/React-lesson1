@@ -9,3 +9,7 @@ header {
     position: fixed;
 }
 
+.nav-links {
+    text-decoration: none;
+}
+
