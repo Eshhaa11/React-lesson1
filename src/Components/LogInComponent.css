@@ -42,7 +42,7 @@ input::placeholder {
 
 button {
     background-color:white;
-    color: #fff;
+    color: black;
     border: none;
     cursor: pointer;
     transition: background 0.3s;
