@@ -4,8 +4,13 @@ import ProfileData from "../Data/Profile.json"
 
 
 const ProfileComponent = () => {
-    
+
     const [team,] = useState ([])
+
+    useEffect (() => {
+            
+        }, []
+    )
 
     return (
        <div>
