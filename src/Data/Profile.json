@@ -1,6 +1,9 @@
 {
     "team_members" : [{
         "name" : "Esha Patel",
-        "role" : "Lead Dveloper"
+        "role" : "Lead Dveloper",
+        "ïmg_url" : "https://zenconnect.vercel.app/static/media/esha_pp.3d93800b4066908c5a3e.png",
+        "description" : "I'm a passionate developer with a keen eye for detail."
+
     }]
 }
