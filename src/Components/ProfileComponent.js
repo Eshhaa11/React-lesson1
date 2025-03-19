@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProfileData from "../Data/Profile.json"
+
 
 
 
@@ -12,8 +13,15 @@ const ProfileComponent = () => {
         }, [])
 
     return (
-       <div>
+            <div>
             <h1>Meet The Team</h1>
+            {team?.team_members?.map((val, key) => {
+                return (
+                    <div key={key}>
+                        <h1>{val.name}</h1>
+                    </div>
+                )
+            })}
             </div>
     )
 }
