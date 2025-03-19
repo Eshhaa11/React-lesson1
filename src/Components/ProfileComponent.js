@@ -2,15 +2,13 @@ import { useState, useEffect } from "react";
 import ProfileData from "../Data/Profile.json"
 
 
-
-
 const ProfileComponent = () => {
 
     const [team, setTeam] = useState ([])
 
-    useEffect (() => {
+    useEffect(() => {
             setTeam(ProfileData)
-        }, [])
+    }, [])
 
     return (
             <div>
