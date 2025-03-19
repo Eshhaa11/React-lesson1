@@ -8,9 +8,8 @@ const ProfileComponent = () => {
     const [team,] = useState ([])
 
     useEffect (() => {
-            
-        }, []
-    )
+            setTeam(ProfileData)
+        }, [])
 
     return (
        <div>
